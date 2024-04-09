@@ -1,0 +1,31 @@
+name: "NO_factors"
+author: "Aditya"
+category: Cryptography
+description: |
+
+    This is a fun RSA...enjoy!
+value: 0
+type: static
+extra:
+    initial: 60
+    decay: 20
+    minimum: 40
+
+# Flags specify answers that your challenge use. You should generally provide
+# at least one.
+# Can be removed if unused
+# Accepts strings or dictionaries
+flags:
+    - GLUG{1m_b3gg1n_b3gg1n_y0u_s0_pu7_y0ur_l0v1ng_h4nd_0u7_b4by}
+
+# Provide paths to files from the same directory that this file is in
+# Accepts strings
+connection_info: nc chall.nitdgplug.org 30045
+
+# The state of the challenge.
+# This is visible by default. It takes two values: hidden, visible.
+state: visible
+
+# Specifies what version of the challenge specification was used.
+# Subject to change until ctfcli v1.0.0
+version: "0.1"

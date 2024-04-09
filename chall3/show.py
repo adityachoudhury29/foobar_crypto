@@ -12,7 +12,7 @@ flag=1
 while flag==1:
     print("What do you want me to decrypt?")
     a=int(input(">>"))
-    if a==c or a%c==0:
+    if a%c==0:
         print("I can't decrypt that!")
     elif a==c+65537*n:
         print("Here is your decrypted message!")
@@ -20,4 +20,4 @@ while flag==1:
         print(">>",ans)
         flag=0
     else:
-        print("You got yout formula right! Just not the correct value :P")
+        print("Try harder! :P")
